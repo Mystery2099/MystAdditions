@@ -1,0 +1,21 @@
+{ 
+    "type": "minecraft:crafting_shapeless",
+
+    "ingredients": 
+    [
+
+    {
+      "item": "mam:lightning_bolt"
+    },
+    {
+      "item": "minecraft:nether_star"
+    }
+    
+    ],
+
+    "result": 
+    {
+        "item": "mam:shazam_lightningbolt",
+        "count": 1
+    }
+}

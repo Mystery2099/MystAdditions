@@ -1,0 +1,24 @@
+{ 
+    "type": "minecraft:crafting_shapeless",
+
+    "ingredients": 
+    [
+
+    {
+      "item": "mam:obsidian_rod"
+    },
+    {
+      "item": "mam:wand_cap"
+    },
+    {
+      "item": "mam:wand_cap"
+    }
+    
+    ],
+
+    "result": 
+    {
+        "item": "mam:wand",
+        "count": 1
+    }
+}

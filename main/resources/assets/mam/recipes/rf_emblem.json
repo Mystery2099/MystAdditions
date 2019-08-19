@@ -1,0 +1,21 @@
+{ 
+    "type": "minecraft:crafting_shapeless",
+
+    "ingredients": 
+    [
+
+    {
+      "item": "mam:rf_emblem_frame"
+    },
+    {
+      "item": "mam:reverse_lightning_bolt"
+    }
+    
+    ],
+
+    "result": 
+    {
+        "item": "mam:rf_emblem",
+        "count": 1
+    }
+}

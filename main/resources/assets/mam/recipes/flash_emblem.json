@@ -1,0 +1,21 @@
+{ 
+    "type": "minecraft:crafting_shapeless",
+
+    "ingredients": 
+    [
+
+    {
+      "item": "mam:flash_emblem_frame"
+    },
+    {
+      "item": "mam:lightning_bolt"
+    }
+    
+    ],
+
+    "result": 
+    {
+        "item": "mam:flash_emblem",
+        "count": 1
+    }
+}

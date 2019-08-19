@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "GGG",
+        "GWG",
+        "GGG"
+    ],
+    
+    "key":
+    {
+        "G":
+        {
+            "item": "minecraft:gold_ingot"
+        },
+        "W":
+        {
+            "item": "minecraft:bone_block"
+        }
+    },
+    
+    "result":
+    {
+        "item": "mam:flash_emblem_frame",
+        "count": 1
+    }
+}

@@ -1,0 +1,21 @@
+{ 
+    "type": "minecraft:crafting_shapeless",
+
+    "ingredients": 
+    [
+
+    {
+      "item": "mam:needle"
+    },
+    {
+      "item": "mam:empty_vial"
+    }
+    
+    ],
+
+    "result": 
+    {
+        "item": "mam:injector",
+        "count": 1
+    }
+}

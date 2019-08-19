@@ -1,0 +1,80 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "blocks/concrete_white",
+		"1_0": "blocks/concrete_black",
+		"particle": "blocks/concrete_black"
+	},
+	"elements": [
+		{
+			"from": [6.8, 0, 6.8],
+			"to": [9.2, 2.2, 9.2],
+			"faces": {
+				"north": {"uv": [0, 0, 2, 16], "texture": "#0"},
+				"east": {"uv": [6, 0, 8, 16], "texture": "#0"},
+				"south": {"uv": [4, 0, 6, 16], "texture": "#0"},
+				"west": {"uv": [2, 0, 4, 16], "texture": "#0"},
+				"up": {"uv": [0, 0, 2, 2], "texture": "#0"},
+				"down": {"uv": [0, 0, 2, 2], "texture": "#0"}
+			}
+		},
+		{
+			"from": [6.8, 15, 6.8],
+			"to": [9.2, 17.2, 9.2],
+			"faces": {
+				"north": {"uv": [0, 0, 2, 16], "texture": "#0"},
+				"east": {"uv": [6, 0, 8, 16], "texture": "#0"},
+				"south": {"uv": [4, 0, 6, 16], "texture": "#0"},
+				"west": {"uv": [2, 0, 4, 16], "texture": "#0"},
+				"up": {"uv": [0, 0, 2, 2], "texture": "#0"},
+				"down": {"uv": [0, 0, 2, 2], "texture": "#0"}
+			}
+		},
+		{
+			"from": [7, 0, 7],
+			"to": [9, 17, 9],
+			"faces": {
+				"north": {"uv": [0, 0, 2, 16], "texture": "#1_0"},
+				"east": {"uv": [6, 0, 8, 16], "texture": "#1_0"},
+				"south": {"uv": [4, 0, 6, 16], "texture": "#1_0"},
+				"west": {"uv": [2, 0, 4, 16], "texture": "#1_0"},
+				"up": {"uv": [0, 0, 2, 2], "texture": "#1_0"},
+				"down": {"uv": [0, 0, 2, 2], "texture": "#1_0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, -1.75, 0.75],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, -1.75, 0.75],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"firstperson_righthand": {
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"firstperson_lefthand": {
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"ground": {
+			"rotation": [0, 0, 90],
+			"translation": [0, 0.25, 0],
+			"scale": [0.25, 0.25, 0.25]
+		},
+		"gui": {
+			"rotation": [0, 28, -47]
+		},
+		"fixed": {
+			"rotation": [0, 0, 47]
+		}
+	},
+	"groups": [0, 1,
+		{
+			"name": "obsidian_rod",
+			"origin": [8, 8, 8],
+			"children": [2]
+		}
+	]
+}

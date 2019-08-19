@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "R  ",
+        " R ",
+        "  R"
+    ],
+    
+    "key":
+    {
+        "R":
+        {
+            "item": "mam:red_iron_ingot"
+        }
+    },
+    
+    "result":
+    {
+        "item": "mam:reverse_lightning_bolt",
+        "count": 1
+    }
+}
